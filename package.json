@@ -1,0 +1,33 @@
+{
+  "name": "lazermovies",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^44.0.6",
+    "expo-cli": "^5.4.3",
+    "expo-status-bar": "~1.2.0",
+    "expo-updates": "~0.11.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-web": "0.17.1",
+    "expo-screen-orientation": "~4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "@types/react-native-orientation": "^5.0.1",
+    "react-native-orientation": "git+https://github.com/yamill/react-native-orientation.git",
+    "react-native-webview": "^11.18.2",
+    "typescript": "~4.3.5"
+  },
+  "private": true
+}
